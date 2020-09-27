@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:padding="1dp"
+    android:layout_height="64dp">
+
+    <LinearLayout
+        android:background="#00FFFFFF"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/notify_img_id"
+            android:scaleType="fitCenter"
+            android:padding="12dp"
+            android:src="@drawable/notify_clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:background="#00FFFFFF"
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/notify_text1_id"
+            android:gravity="center|left"
+            android:text="Time to take"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/notify_text2_id"
+            android:gravity="top|left"
+            android:text="Go market"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#00FFFFFF"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/notify_close_id"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:src="@drawable/notify_wave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
