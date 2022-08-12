@@ -5,6 +5,9 @@ This is simple medicine alert android app. This application will notify(with sou
 * This is my internship task.
 
 
+Youtube: https://www.youtube.com/watch?v=rx7mMiDXI1o
+
+
 ## Screenshots
 <img src="/screenshots/Photo_1.png" height="400px"/> <img src="/screenshots/Photo_2.png" height="400px"/>
 <img src="/screenshots/Photo_3.png" height="400px"/> <img src="/screenshots/Photo_4.png" height="400px"/>
