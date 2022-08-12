@@ -4,7 +4,7 @@ This is simple medicine alert android app. This application will notify(with sou
 * This application also work after device reboot and switch off/on.  
 * This is my internship task.
 
-
+## Demo
 Youtube: https://www.youtube.com/watch?v=rx7mMiDXI1o
 
 
